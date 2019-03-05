@@ -7,6 +7,7 @@ This is the program to test NemoLib C++ which you can get from https://github.co
 g++ -std=c++11 -c main.cpp -o main.o -I.
 * Link (for example, your nemostaticlib.o is in the home/lib/NemoStaticLib folder)
 g++ -o main main.o -Lhome/lib/NemoStaticLib -lnemostaticlib
+* download the "exampleGraph.txt" file.
 * Run
 ./main
 
